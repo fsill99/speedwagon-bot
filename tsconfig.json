@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "importHelpers": true,
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "rootDir": "src",
+    "strict": true,
+    "target": "ES2020",
+    "composite": false
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

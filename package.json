@@ -1,0 +1,24 @@
+{
+  "name": "speedwagon-waifu-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "3.9.3",
+    "ts-node": "8.10.2"
+  },
+  "author": "fsill99",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "@types/node": "^14.0.13",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.1.0",
+    "telegraf": "^3.38.0"
+  }
+}
